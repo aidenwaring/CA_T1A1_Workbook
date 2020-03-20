@@ -14,7 +14,18 @@ Research the development of the internet from 1980 to today. You must describe a
 Define the features of the following technologies that are essential in terms of the development of the internet:
 
 - packets
+  - A packet is a unit of data that is routed between two an origin and a destination within a packet-switched network. A packet contains two types of information - control information and user data. 
+  Communication platforms such as TCP/IP frames the data into two components - the header, payload and trailer.
+  The header stores data detailing the delivery of the packet to it's destination, whereas the payload is the message's contents and the trailer containing bits representing the end of the packet. *
+
+  The concept of network packets were first introduced in the early 1960s when Paul Baran, computer scientist, wrote 'Distributed Adaptive Message Block Switching, introducing a routing method for the delivery of information as part of a research program at RAND corporation, which, at the time, was funded by the US Department of Defence. *
+
+  However, it wasn't until 1965 when computer scientist Donald Davies furthered Baran's concepts into the delivery of a packet switching network, a method of grouping collections of data packets, and parsed to application software. This method was later implemented into early ARPRANET and became what is now considered the foundations of modern data communications and computer networks. *
+ 
 - IP addresses (IPv4 and IPv6)
+An internet protocol address (IP address) 
+
+
 - routers and routing
 - domains and DNS
 
@@ -79,7 +90,15 @@ Explain type coercion
 
 Explain data types, using examples
 
-100
+A data type is an attribute of data used to represent the data. This attribute, or type, tells the computer system's compiler or interpreter how the information should be used. *
+Data types define the operations and calculations that can be performed on the data.
+In computer programming, data is often represented in a number of different formats. While the names and the way they are declared may differ slightly betweeen programming languages, the they represent the same type. Below are a list of examples of some basic programming data types:
+
+* integer - non-fractional numbers
+* float - floating point numbers represents fractional values (rational numbers)
+* string - sequence of characters
+* boolean - true or false
+* array - collection or store of a number of elements
 
 # Q11
 
