@@ -13,20 +13,38 @@ Research the development of the internet from 1980 to today. You must describe a
 
 Define the features of the following technologies that are essential in terms of the development of the internet:
 
-- packets
-  - A packet is a unit of data that is routed between two an origin and a destination within a packet-switched network. A packet contains two types of information - control information and user data. 
-  Communication platforms such as TCP/IP frames the data into two components - the header, payload and trailer.
-  The header stores data detailing the delivery of the packet to it's destination, whereas the payload is the message's contents and the trailer containing bits representing the end of the packet. *
+##### Packets
+A packet is a unit of data that is routed between two an origin and a destination within a packet-switched network. A packet contains two types of information: control information and user data.
 
-  The concept of network packets were first introduced in the early 1960s when Paul Baran, computer scientist, wrote 'Distributed Adaptive Message Block Switching, introducing a routing method for the delivery of information as part of a research program at RAND corporation, which, at the time, was funded by the US Department of Defence. *
+Communication platforms such as TCP/IP frames the data into two components - the header, payload and trailer.
+The header stores data detailing the delivery of the packet to it's destination, whereas the payload is the message's contents and the trailer containing bits representing the end of the packet.
 
-  However, it wasn't until 1965 when computer scientist Donald Davies furthered Baran's concepts into the delivery of a packet switching network, a method of grouping collections of data packets, and parsed to application software. This method was later implemented into early ARPRANET and became what is now considered the foundations of modern data communications and computer networks. *
+The concept of network packets were first introduced in the early 1960s when Paul Baran, computer scientist, wrote 'Distributed Adaptive Message Block Switching, introducing a routing method for the delivery of information as part of a research program at RAND corporation, which, at the time, was funded by the US Department of Defence. 
+[Link](https://www.livescience.com/20727-internet-history.html)
+
+However, it wasn't until 1965 when computer scientist Donald Davies furthered Baran's concepts into the delivery of a packet switching network, a method of grouping collections of data packets, and parsed to application software. This method was later implemented into early ARPRANET and became what is now considered the foundations of modern data communications and computer networks. 
+[Link](https://www.ietf.org/rfc/rfc791.txt)
  
-- IP addresses (IPv4 and IPv6)
-An internet protocol address (IP address) 
+##### IP Addresses (IPv4 and IPv6)
+An internet protocol address (IP address) is a numerical identifier assigned to a device on a computer network such as Internet Protocol (IP).
 
+IP addresses identify a host's network interface, providing other devices connected to the network via IP to locate the host, providing a path to connect to it.
+
+IPv4 is the fourth interation of the Internet Protocol.
+It is considered as one of the core protocols of standards-based internetworking methods on the internet and it was the first version that was deployed for production during the time of ARPANET. IP stands for a protocol that relies on packet-switched layer networks just like the Ethernet. It provides a logical connection between different network devices by providing identification for each device.
+[Link](https://www.techopedia.com/definition/5367/internet-protocol-version-4-ipv4)
+
+IPv4 still routes the majority of internet traffic to this day. IPv4 uses a 32-bit address scheme which allows for a total of 2 to the power of 32 addresses, whcih is just over 4 billion addresses total. 
+[Link](https://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html)
+
+However, due to the 4 billion address limitation in IPv4, a successor called IPv6 was created out of concern that the worldwide demand for IP addresses would exceed IPv4's availability. Development of IPv6 started back in the mid-1990s. This upgrade to the Internet Protocol will coexist with IPv4 for the foreseeable future.
 
 - routers and routing
+Routing is the process of selection and navigation within and across computer networks. Packet switching 
+
+
+*"A name indicates what we seek. An address indicates where it is. A route indicates how to get there."* 
+[Link](https://tools.ietf.org/html/rfc791)
 - domains and DNS
 
 Explain how each technology has contributed to the development of the internet.
@@ -85,6 +103,15 @@ Explain control flow, using an example from the Ruby programming language
 
 Explain type coercion
 100
+
+Type coercion is the automatic or implicit conversion of values from one data type to another. 
+[Link](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion)
+
+To elaborate, this means that 
+
+ different ways of changing an expression from one data type to another.
+
+An example would be the conversion of an integer value into a floating point value or its textual representation as a string, and vice versa.
 
 ## 10
 
