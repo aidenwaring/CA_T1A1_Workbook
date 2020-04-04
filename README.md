@@ -145,54 +145,54 @@ Python is a relatively simple interpreted programming language that includes a r
 ##### Advantages
 
 * Easy to Learn
-  Python has an easy-to-use syntax, focused on the programmer who must type in the program, read what was typed, and provide formal documentation for the program. Many languages have syntax focused on developing a simple, fast compiler; but those languages may sacrifice readability and writability. Python strikes a good balance between fast compilation, readability and writability.
-  <br>
+    Python has an easy-to-use syntax, focused on the programmer who must type in the program, read what was typed, and provide formal documentation for the program. Many languages have syntax focused on developing a simple, fast compiler; but those languages may sacrifice readability and writability. Python strikes a good balance between fast compilation, readability and writability.
+    <br>
 * Productive Language
-  Python has clean object-oriented design, provides enhanced process control capabilities, and possesses strong integration and text processing capabilities and its own unit testing framework, all of which contribute to the increase in its speed and productivity. Python is considered a viable option for building complex multi-protocol network applications. [Reference](https://www.invensis.net/blog/it/benefits-of-python-over-other-programming-languages/)
-  <br>
+    Python has clean object-oriented design, provides enhanced process control capabilities, and possesses strong integration and text processing capabilities and its own unit testing framework, all of which contribute to the increase in its speed and productivity. Python is considered a viable option for building complex multi-protocol network applications. [Reference](https://www.invensis.net/blog/it/benefits-of-python-over-other-programming-languages/)
+    <br>
 * Interpreted Language - Easy to Debug
-  Python is simple. It relies on a few core data structures and statements. The rich set of features is introduced by explicit import of extension modules. Python lacks the problem-plagued GOTO statement, and includes the more reliable break , continue and exception raise statements. Python conceals the mechanics of object references from the programmer, making it impossible to corrupt a pointer. There is no language preprocessor to obscure the syntax of the language. There is no C-style union (or COBOL-style REDEFINES) to create problematic aliases for data in memory.
-  [Reference](https://www.linuxtopia.org/online_books/programming_books/python_programming/python_ch01s03.html)
+    Python is simple. It relies on a few core data structures and statements. The rich set of features is introduced by explicit import of extension modules. Python lacks the problem-plagued GOTO statement, and includes the more reliable break , continue and exception raise statements. Python conceals the mechanics of object references from the programmer, making it impossible to corrupt a pointer. There is no language preprocessor to obscure the syntax of the language. There is no C-style union (or COBOL-style REDEFINES) to create problematic aliases for data in memory.
+    [Reference](https://www.linuxtopia.org/online_books/programming_books/python_programming/python_ch01s03.html)
 
 ##### Disadvantages
 
 * Mobile Development Issues
-  Python is not a very good language for mobile development . It is seen as a weak language for mobile computing. This is the reason very few mobile applications are built in it like Carbonnelle.
-  [Reference](http://net-informations.com/python/iq/disadvantages.htm)
-  <br>
+    Python is not a very good language for mobile development . It is seen as a weak language for mobile computing. This is the reason very few mobile applications are built in it like Carbonnelle.
+    [Reference](http://net-informations.com/python/iq/disadvantages.htm)
+    <br>
 * Memory Consumption
-  Python is not a good choice for memory intensive tasks. Due to the flexibility of the data-types, Python's memory consumption is also high.
-  [Reference](http://net-informations.com/python/iq/disadvantages.htm)
-  <br>
+    Python is not a good choice for memory intensive tasks. Due to the flexibility of the data-types, Python's memory consumption is also high.
+    [Reference](http://net-informations.com/python/iq/disadvantages.htm)
+    <br>
 * Database Access
-  Python has limitations with database access . As compared to the popular technologies like JDBC and ODBC, the Python's database access layer is found to be bit underdeveloped and primitive . However, it cannot be applied in the enterprises that need smooth interaction of complex legacy data.
-  [Reference](http://net-informations.com/python/iq/disadvantages.htm)
+    Python has limitations with database access . As compared to the popular technologies like JDBC and ODBC, the Python's database access layer is found to be bit underdeveloped and primitive . However, it cannot be applied in the enterprises that need smooth interaction of complex legacy data.
+    [Reference](http://net-informations.com/python/iq/disadvantages.htm)
 
 #### Swift
 Swift is a compiled programming language developed by Apple Inc.
 
 ##### Advantages
 * Speed
-  Swift was built with performance in mind. Not only does its simple syntax and hand-holding help you develop faster, it also lives up to its name: as stated on apple.com, Swift is 2.6x faster than Objective-C and 8.4x faster than Python. [Reference](https://www.apple.com/swift/)
-  <br>
+    Swift was built with performance in mind. Not only does its simple syntax and hand-holding help you develop faster, it also lives up to its name: as stated on apple.com, Swift is 2.6x faster than Objective-C and 8.4x faster than Python. [Reference](https://www.apple.com/swift/)
+    <br>
 * Demand
-  Remaining supreme to Objective C, Swift is ranked 14th among the most popular programming languages of 2018 as per Stack Overflow's 2018 Developer Survey Results. [Reference](https://insights.stackoverflow.com/survey/2018/)
+    Remaining supreme to Objective C, Swift is ranked 14th among the most popular programming languages of 2018 as per Stack Overflow's 2018 Developer Survey Results. [Reference](https://insights.stackoverflow.com/survey/2018/)
   <br>
 * Modern Language - New Features
-  Playgrounds is one of the USP of Swift programming language. Input in a line of code and the Swift programming language instantly displays the output. To further extend its functionality, if you have a loop in your code, you can monitor its progress on the timeline assistant. The timelines displays the variables in a graph and draws each step. Playgrounds also allows the developers to experiment with the new APIs. [Reference](https://www.snyxius.com/benefits-of-the-swift-programming-language/)
+    Playgrounds is one of the USP of Swift programming language. Input in a line of code and the Swift programming language instantly displays the output. To further extend its functionality, if you have a loop in your code, you can monitor its progress on the timeline assistant. The timelines displays the variables in a graph and draws each step. Playgrounds also allows the developers to experiment with the new APIs. [Reference](https://www.snyxius.com/benefits-of-the-swift-programming-language/)
 
 ##### Disadvantages
 * Stability Issues
-  Swift might be the fastest and most powerful language but it is still quite young. There are many issues that need to be fixed, the time to maturity is always there even if it’s swift. It has to experience the growing pain and fix the issues that arise on its path to maturity. Swift is considered to be rather unstable. The developers have raised this concern of lack of backward compatibility with each new release. After a new version is released, developers are sometimes forced to completely rewrite the project in order to stay up to date. Xcode has solved this problem to some extent by helping the people update their swift code however it doesn’t fix all the issues.
-  [Reference](https://www.aalpha.net/articles/swift-application-development-advantages-disadvantages/)
-  <br>
+    Swift might be the fastest and most powerful language but it is still quite young. There are many issues that need to be fixed, the time to maturity is always there even if it’s swift. It has to experience the growing pain and fix the issues that arise on its path to maturity. Swift is considered to be rather unstable. The developers have raised this concern of lack of backward compatibility with each new release. After a new version is released, developers are sometimes forced to completely rewrite the project in order to stay up to date. Xcode has solved this problem to some extent by helping the people update their swift code however it doesn’t fix all the issues.
+    [Reference](https://www.aalpha.net/articles/swift-application-development-advantages-disadvantages/)
+    <br>
 * New Language
-  Due to Swift being in its initial stage, there is much time for the language to mature and discover/ address its pain areas. It still has a very limited amount of “native” libraries and tools. Plus, due to its newness, there is a limited amount of Swift developers out there. Even so, since the swift community is growing rapidly, there is an increase in demand for Swift programmers.
-  [Reference](https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-swift-programming-language/)
-  <br>
+    Due to Swift being in its initial stage, there is much time for the language to mature and discover/ address its pain areas. It still has a very limited amount of “native” libraries and tools. Plus, due to its newness, there is a limited amount of Swift developers out there. Even so, since the swift community is growing rapidly, there is an increase in demand for Swift programmers.
+    [Reference](https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-swift-programming-language/)
+    <br>
 * Backwards Compatability Issues
-  You can only use Swift in the apps that target iOS7 and later. That said, Swift can’t be used for legacy projects running on older versions of the operating system. However, per recent research, less than 5% of Apple devices currently run on iOS6 or earlier.
-  [Reference](https://david-smith.org/iosversionstats/)
+    You can only use Swift in the apps that target iOS7 and later. That said, Swift can’t be used for legacy projects running on older versions of the operating system. However, per recent research, less than 5% of Apple devices currently run on iOS6 or earlier.
+    [Reference](https://david-smith.org/iosversionstats/)
 
 ## Q7
 
