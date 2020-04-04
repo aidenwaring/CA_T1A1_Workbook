@@ -9,7 +9,7 @@
 Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
 300 - 500
 
-__Answer:__
+**Answer:**
 ..............................
 
 ## Q2
@@ -20,19 +20,21 @@ Packets, IP Addresses (IPv4 and IPv6), Routers and Routing, Domains and DNS
 
 Explain how each technology has contributed to the development of the internet.
 
-__Answer:__
+**Answer:**
 
 ##### Packets
+
 A packet is a unit of data that is routed between two an origin and a destination within a packet-switched network. A packet contains two types of information: control information and user data.
 
 Communication platforms such as TCP/IP frames the data into two components - the header, payload and trailer.
 The header stores data detailing the delivery of the packet to it's destination, whereas the payload is the message's contents and the trailer containing bits representing the end of the packet. [Reference](https://www.livescience.com/20727-internet-history.html)
 
-The concept of network packets were first introduced in the early 1960s when Paul Baran, computer scientist, wrote 'Distributed Adaptive Message Block Switching, introducing a routing method for the delivery of information as part of a research program at RAND corporation, which, at the time, was funded by the US Department of Defence. 
+The concept of network packets were first introduced in the early 1960s when Paul Baran, computer scientist, wrote 'Distributed Adaptive Message Block Switching, introducing a routing method for the delivery of information as part of a research program at RAND corporation, which, at the time, was funded by the US Department of Defence.
 
 However, it wasn't until 1965 when computer scientist Donald Davies furthered Baran's concepts into the delivery of a packet switching network, a method of grouping collections of data packets, and parsed to application software. This method was later implemented into early ARPRANET and became what is now considered the foundations of modern data communications and computer networks. [Reference](https://www.ietf.org/rfc/rfc791.txt)
- 
+
 ##### IP Addresses (IPv4 and IPv6)
+
 An internet protocol address (IP address) is a numerical identifier assigned to a device on a computer network such as Internet Protocol (IP).
 
 IP addresses identify a host's network interface, providing other devices connected to the network via IP to locate the host, providing a path to connect to it.
@@ -46,10 +48,9 @@ However, due to the 4 billion address limitation in IPv4, a successor called IPv
 
 ##### Routers and routing
 
-Routing is the process of selection and navigation within and across computer networks. Routing is performed by a special device known as a router. [Reference](https://www.javatpoint.com/computer-network-routing) 
+Routing is the process of selection and navigation within and across computer networks. Routing is performed by a special device known as a router. [Reference](https://www.javatpoint.com/computer-network-routing)
 
-*"A name indicates what we seek. An address indicates where it is. A route indicates how to get there."* [Reference](https://tools.ietf.org/html/rfc791)
-
+_"A name indicates what we seek. An address indicates where it is. A route indicates how to get there."_ [Reference](https://tools.ietf.org/html/rfc791)
 
 A router is a physical or virtual appliance that passes information between two or more packet-switched computer networks. A router inspects a given data packet's destination Internet Protocol address (IP address), calculates the best way for it to reach its destination and then forwards it accordingly. [Reference](https://searchnetworking.techtarget.com/definition/router)
 
@@ -61,9 +62,9 @@ The concept of an "Interface computer" was first used by Donald Davies for the N
 
 ##### Domains and DNS
 
-The Domain Name System has been an essential component of the functionality of the Internet since 1985. The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. [Reference](https://tools.ietf.org/html/rfc1034) 
+The Domain Name System has been an essential component of the functionality of the Internet since 1985. The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. [Reference](https://tools.ietf.org/html/rfc1034)
 
-*The Domain Name System (DNS) is the phonebook of the Internet.*
+_The Domain Name System (DNS) is the phonebook of the Internet._
 
 A domain is the human interpretation of a an internet address. Web browsers interact via IP addresses. DNS translates domain names to an IP address so that an internet browser can load the information at the address host. [Reference](https://www.cloudflare.com/learning/dns/what-is-dns/)
 
@@ -75,16 +76,15 @@ TCP, HTTP and HTTPS, web browsers (requests, rendering and developer tools).
 
 Explain how each technology has contributed to the development of client and server communication over the internet.
 
-__Answer:__
+**Answer:**
 
 ...............................................
-
 
 ## Q4
 
 Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.
 
-__Answer:__
+**Answer:**
 In Ruby, a data structure is a term used to describe a specific way to organise and access information.
 
 Arrays, and hashes are all examples of data structures.
@@ -95,9 +95,9 @@ Ruby arrays are ordered, integer-indexed collections of any object. Each element
 
 ##### Uses of arrays
 
-* As a base for more advanced data structures
-* To gather results from running a loop
-* Collecting items
+- As a base for more advanced data structures
+- To gather results from running a loop
+- Collecting items
 
 #### Hash
 
@@ -105,9 +105,9 @@ A hash is a collection of key-value pairs. While similar to arrays in the sense 
 
 #### Uses for Hash
 
-* Counting characters in a string
-* Mapping words to definitions, names to phone numbers, etc.
-* Find duplicates inside an array
+- Counting characters in a string
+- Mapping words to definitions, names to phone numbers, etc.
+- Find duplicates inside an array
 
 #### Stack
 
@@ -115,14 +115,14 @@ A stack is a top-to-bottom data structure, where data can be stacked on top of e
 
 ##### Uses for stack
 
-* Organising data in a strict sequence
-* A 'to-do' list presentation of representing information
+- Organising data in a strict sequence
+- A 'to-do' list presentation of representing information
 
 ## Q5
 
 Describe the features of interpreters and compilers and how they are different.
 
-__Answer:__
+**Answer:**
 A compiler is a program that translates code written in a high-level programming language (like JavaScript or Java) into low-level code (like Assembly) directly executable by the computer or another program such as a virtual machine. [Reference](https://medium.com/hackernoon/compilers-and-interpreters-3e354a2e41cf)
 The compiler is taking your human-readable source code, analyzing it, then producing a computer-readable code called machine code (binary). Some compilers will (instead of going straight to machine code) go to assembly, or a different human-readable language.
 When a program is compiled it is often compiled for a specific platform (e.g., IBM platform) that works with IBM compatible computers, but not other platforms (e.g., Apple platform). [Reference](https://www.computerhope.com/jargon/c/compile.htm)
@@ -131,12 +131,11 @@ An interpreter is a computer program that directly executes instructions written
 
 In most cases, a compiler is more favorable since its output runs much faster compared to a line-by-line interpretation. However, since interpretation happens per line or statement, it can be stopped in the middle of execution to allow for either code modification or debugging. Both have their advantages and disadvantages and are not mutually exclusive; this means that they can be used in conjunction as most integrated development environments employ both compilation and translation for some high-level languages. [Reference](https://www.techopedia.com/definition/7793/interpreter)
 
-
 ## Q6
 
 Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
 
-__Answer:__
+**Answer:**
 
 #### Python
 
@@ -144,55 +143,43 @@ Python is a relatively simple interpreted programming language that includes a r
 
 ##### Advantages
 
-* Easy to Learn
-    Python has an easy-to-use syntax, focused on the programmer who must type in the program, read what was typed, and provide formal documentation for the program. Many languages have syntax focused on developing a simple, fast compiler; but those languages may sacrifice readability and writability. Python strikes a good balance between fast compilation, readability and writability.
-    <br>
-* Productive Language
-    Python has clean object-oriented design, provides enhanced process control capabilities, and possesses strong integration and text processing capabilities and its own unit testing framework, all of which contribute to the increase in its speed and productivity. Python is considered a viable option for building complex multi-protocol network applications. [Reference](https://www.invensis.net/blog/it/benefits-of-python-over-other-programming-languages/)
-    <br>
-* Interpreted Language - Easy to Debug
-    Python is simple. It relies on a few core data structures and statements. The rich set of features is introduced by explicit import of extension modules. Python lacks the problem-plagued GOTO statement, and includes the more reliable break , continue and exception raise statements. Python conceals the mechanics of object references from the programmer, making it impossible to corrupt a pointer. There is no language preprocessor to obscure the syntax of the language. There is no C-style union (or COBOL-style REDEFINES) to create problematic aliases for data in memory.
-    [Reference](https://www.linuxtopia.org/online_books/programming_books/python_programming/python_ch01s03.html)
+- Easy to Learn
+  - Python has an easy-to-use syntax, focused on the programmer who must type in the program, read what was typed, and provide formal documentation for the program. Many languages have syntax focused on developing a simple, fast compiler; but those languages may sacrifice readability and writability. Python strikes a good balance between fast compilation, readability and writability.
+- Productive Language
+  - Python has clean object-oriented design, provides enhanced process control capabilities, and possesses strong integration and text processing capabilities and its own unit testing framework, all of which contribute to the increase in its speed and productivity. Python is considered a viable option for building complex multi-protocol network applications. [Reference](https://www.invensis.net/blog/it/benefits-of-python-over-other-programming-languages/)
+- Interpreted Language - Easy to Debug
+  - Python is simple. It relies on a few core data structures and statements. The rich set of features is introduced by explicit import of extension modules. Python lacks the problem-plagued GOTO statement, and includes the more reliable break , continue and exception raise statements. Python conceals the mechanics of object references from the programmer, making it impossible to corrupt a pointer. There is no language preprocessor to obscure the syntax of the language. There is no C-style union (or COBOL-style REDEFINES) to create problematic aliases for data in memory. [Reference](https://www.linuxtopia.org/online_books/programming_books/python_programming/python_ch01s03.html)
 
 ##### Disadvantages
 
-* Mobile Development Issues
-    Python is not a very good language for mobile development . It is seen as a weak language for mobile computing. This is the reason very few mobile applications are built in it like Carbonnelle.
-    [Reference](http://net-informations.com/python/iq/disadvantages.htm)
-    <br>
-* Memory Consumption
-    Python is not a good choice for memory intensive tasks. Due to the flexibility of the data-types, Python's memory consumption is also high.
-    [Reference](http://net-informations.com/python/iq/disadvantages.htm)
-    <br>
-* Database Access
-    Python has limitations with database access . As compared to the popular technologies like JDBC and ODBC, the Python's database access layer is found to be bit underdeveloped and primitive . However, it cannot be applied in the enterprises that need smooth interaction of complex legacy data.
-    [Reference](http://net-informations.com/python/iq/disadvantages.htm)
+- Mobile Development Issues
+  - Python is not a very good language for mobile development . It is seen as a weak language for mobile computing. This is the reason very few mobile applications are built in it like Carbonnelle. [Reference](http://net-informations.com/python/iq/disadvantages.htm)
+- Memory Consumption
+  - Python is not a good choice for memory intensive tasks. Due to the flexibility of the data-types, Python's memory consumption is also high. [Reference](http://net-informations.com/python/iq/disadvantages.htm)
+- Database Access
+  - Python has limitations with database access . As compared to the popular technologies like JDBC and ODBC, the Python's database access layer is found to be bit underdeveloped and primitive . However, it cannot be applied in the enterprises that need smooth interaction of complex legacy data. [Reference](http://net-informations.com/python/iq/disadvantages.htm)
 
 #### Swift
+
 Swift is a compiled programming language developed by Apple Inc.
 
 ##### Advantages
-* Speed
-    Swift was built with performance in mind. Not only does its simple syntax and hand-holding help you develop faster, it also lives up to its name: as stated on apple.com, Swift is 2.6x faster than Objective-C and 8.4x faster than Python. [Reference](https://www.apple.com/swift/)
-    <br>
-* Demand
-    Remaining supreme to Objective C, Swift is ranked 14th among the most popular programming languages of 2018 as per Stack Overflow's 2018 Developer Survey Results. [Reference](https://insights.stackoverflow.com/survey/2018/)
-  <br>
-* Modern Language - New Features
-    Playgrounds is one of the USP of Swift programming language. Input in a line of code and the Swift programming language instantly displays the output. To further extend its functionality, if you have a loop in your code, you can monitor its progress on the timeline assistant. The timelines displays the variables in a graph and draws each step. Playgrounds also allows the developers to experiment with the new APIs. [Reference](https://www.snyxius.com/benefits-of-the-swift-programming-language/)
+
+- Speed
+  - Swift was built with performance in mind. Not only does its simple syntax and hand-holding help you develop faster, it also lives up to its name: as stated on apple.com, Swift is 2.6x faster than Objective-C and 8.4x faster than Python. [Reference](https://www.apple.com/swift/)
+- Demand
+  - Remaining supreme to Objective C, Swift is ranked 14th among the most popular programming languages of 2018 as per Stack Overflow's 2018 Developer Survey Results. [Reference](https://insights.stackoverflow.com/survey/2018/)
+- Modern Language - New Features
+  - Playgrounds is one of the USP of Swift programming language. Input in a line of code and the Swift programming language instantly displays the output. To further extend its functionality, if you have a loop in your code, you can monitor its progress on the timeline assistant. The timelines displays the variables in a graph and draws each step. Playgrounds also allows the developers to experiment with the new APIs. [Reference](https://www.snyxius.com/benefits-of-the-swift-programming-language/)
 
 ##### Disadvantages
-* Stability Issues
-    Swift might be the fastest and most powerful language but it is still quite young. There are many issues that need to be fixed, the time to maturity is always there even if it’s swift. It has to experience the growing pain and fix the issues that arise on its path to maturity. Swift is considered to be rather unstable. The developers have raised this concern of lack of backward compatibility with each new release. After a new version is released, developers are sometimes forced to completely rewrite the project in order to stay up to date. Xcode has solved this problem to some extent by helping the people update their swift code however it doesn’t fix all the issues.
-    [Reference](https://www.aalpha.net/articles/swift-application-development-advantages-disadvantages/)
-    <br>
-* New Language
-    Due to Swift being in its initial stage, there is much time for the language to mature and discover/ address its pain areas. It still has a very limited amount of “native” libraries and tools. Plus, due to its newness, there is a limited amount of Swift developers out there. Even so, since the swift community is growing rapidly, there is an increase in demand for Swift programmers.
-    [Reference](https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-swift-programming-language/)
-    <br>
-* Backwards Compatability Issues
-    You can only use Swift in the apps that target iOS7 and later. That said, Swift can’t be used for legacy projects running on older versions of the operating system. However, per recent research, less than 5% of Apple devices currently run on iOS6 or earlier.
-    [Reference](https://david-smith.org/iosversionstats/)
+
+- Stability Issues
+  - Swift might be the fastest and most powerful language but it is still quite young. There are many issues that need to be fixed, the time to maturity is always there even if it’s swift. It has to experience the growing pain and fix the issues that arise on its path to maturity. Swift is considered to be rather unstable. The developers have raised this concern of lack of backward compatibility with each new release. After a new version is released, developers are sometimes forced to completely rewrite the project in order to stay up to date. Xcode has solved this problem to some extent by helping the people update their swift code however it doesn’t fix all the issues. [Reference](https://www.aalpha.net/articles/swift-application-development-advantages-disadvantages/)
+- New Language
+  - Due to Swift being in its initial stage, there is much time for the language to mature and discover/ address its pain areas. It still has a very limited amount of “native” libraries and tools. Plus, due to its newness, there is a limited amount of Swift developers out there. Even so, since the swift community is growing rapidly, there is an increase in demand for Swift programmers. [Reference](https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-swift-programming-language/)
+- Backwards Compatability Issues
+  - You can only use Swift in the apps that target iOS7 and later. That said, Swift can’t be used for legacy projects running on older versions of the operating system. However, per recent research, less than 5% of Apple devices currently run on iOS6 or earlier. [Reference](https://david-smith.org/iosversionstats/)
 
 ## Q7
 
@@ -214,7 +201,7 @@ Conduct research into a case study of ONE of the ethical issues you have chosen 
 
 200 - 400 words for each ethical issue
 
-__Answer:__
+**Answer:**
 ......................
 
 ## Q8
@@ -222,7 +209,7 @@ __Answer:__
 Explain control flow, using an example from the Ruby programming language.
 100
 
-__Answer:__
+**Answer:**
 In computer science, control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated. [Reference](https://cs.stanford.edu/people/eroberts/papers/SIGCSE-1995/LoopExits.pdf)
 
 In Ruby, the flow of the program runs sequentially from one line to the next from top to bottom. Conditionals and loops alter the flow of a Ruby program. Conditionals are keywords that execute a certain statement under a specific condition. Loops are blocks of program that are executed multiple times. When the program is run, the statements are executed from the top of the source file to the bottom. One by one. [Reference](http://zetcode.com/lang/rubytutorial/flowcontrol/)
@@ -253,15 +240,15 @@ puts "The sum of 0..9 values is #{sum}"
 
 Explain type coercion.
 
-__Answer:__
-Type coercion is the automatic or implicit conversion of values from one data type to another. 
+**Answer:**
+Type coercion is the automatic or implicit conversion of values from one data type to another.
 [Reference](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion)
 
 This kind of type conversions can be implicitly or explicitly made. Implicit conversion, which is also called coercion, is automatically done. Explicit conversion, which is also called casting, is performed by code instructions. This code treats a variable of one data type as if it belongs to a different data type. The languages that support implicit conversion define the rules that will be automatically applied when primitive compatible values are involved. [Reference](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Coercion)
 
 The C code below illustrates implicit and explicit coercion. In line 2 the int constant 3 is automatically converted to double before assignment (implicit coercion. An explicit coercion is performed by involving the destination type with parenthesis, which is done in line 3. [Reference](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Coercion)
 
-``` C
+```C
 double x, y;
 
 x = 3;            // implicitly coercion (coercion)
@@ -273,16 +260,16 @@ y = (double) 5;   // explicitly coercion (casting)
 
 Explain data types, using examples.
 
-__Answer:__
+**Answer:**
 A data type is an attribute of data used to represent the data. This attribute, or type, tells the computer system's compiler or interpreter how the information should be used.
 Data types define the operations and calculations that can be performed on the data.
 In computer programming, data is often represented in a number of different formats. While the names and the way they are declared may differ slightly betweeen programming languages, the they represent the same type. Below are a list of examples of some basic programming data types:
 
-* integer - non-fractional numbers
-* float - floating point numbers represents fractional values (rational numbers)
-* string - sequence of characters
-* boolean - true or false
-* array - collection or store of a number of elements
+- integer - non-fractional numbers
+- float - floating point numbers represents fractional values (rational numbers)
+- string - sequence of characters
+- boolean - true or false
+- array - collection or store of a number of elements
 
 # Q11
 
@@ -296,10 +283,11 @@ Here’s the problem: “There is a restaurant serving a variety of food. The cu
 
 Identify and explain the error in the code snippet below that is preventing correct execution of the program
 
-__Answer:__
+**Answer:**
 
 Original Code:
-``` ruby
+
+```ruby
 celsius = gets
 fahrenheit = (celsius * 9 / 5) + 32
 print "The result is: "
@@ -308,6 +296,7 @@ puts "."
 ```
 
 Fixed Code:
+
 ```ruby
 celsius = gets.to_i
 fahrenheit = (celsius * 9 / 5) + 32
@@ -318,10 +307,10 @@ puts "."
 
 Explanation:
 Ruby is unable to parse the user's input celsuis into the equation to calculate the new value due to a NoMethodError.
-The gets function takes input from the keyboard in *string* format and stores the value in the variables. It also appends a \n new line character atr the end of the input entered by the user.
+The gets function takes input from the keyboard in _string_ format and stores the value in the variables. It also appends a \n new line character atr the end of the input entered by the user.
 [Reference](https://www.studytonight.com/ruby/getting-user-input-ruby)
 
-As a string cannot be used as part of a mathematical operation, it must firstly be converted to an integer. We accomplish that by changing the gets method to gets.to_i, which returns the result of interpreting the characters from the string and storing them as an integer. 
+As a string cannot be used as part of a mathematical operation, it must firstly be converted to an integer. We accomplish that by changing the gets method to gets.to_i, which returns the result of interpreting the characters from the string and storing them as an integer.
 [Reference](https://www.rubydoc.info/stdlib/core/String:to_i)
 
 As the stored value is now an integer, it does not contain the new line character as it was not stored as a string. gets.chomp will remove any new line character if stored as a string.
@@ -331,7 +320,7 @@ As the stored value is now an integer, it does not contain the new line characte
 
 The code snippet below looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 
-__Answer:__
+**Answer:**
 [Response to Q13.](q13.rb)
 
 ## Q14
@@ -347,7 +336,7 @@ Demonstrate your algorithmic thinking through completing the following two tasks
 Write pseudocode OR Ruby code for the following problem:
 You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
 
-__Answer:__
+**Answer:**
 [Response to Q15.](q15.rb)
 
 ## Q16
@@ -370,6 +359,6 @@ Write a program that, given a person’s score can tell them:
 a) whether or not they’re allergic to a given item
 b) the full list of allergies.
 
-__Answer:__
+**Answer:**
 
 [Response to Q16.](q16.rb)
