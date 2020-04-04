@@ -83,10 +83,40 @@ __Answer:__
 ## Q4
 
 Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.
-50 - 100 words on each data structure
 
 __Answer:__
-.....................
+In Ruby, a data structure is a term used to describe a specific way to organise and access information.
+
+Arrays, and hashes are all examples of data structures.
+
+#### Array
+
+Ruby arrays are ordered, integer-indexed collections of any object. Each element in an array is associated with and referred to by an index. Arrays have many uses due to their flexible properties, uses such as gathering results from a loop, collecting and storing items and more. Arrays can store a number of different elements: strings, integers, hashes, symbols and other arrays. [Reference](https://medium.com/@mshapir95/data-structures-in-ruby-a2b709d565be)
+
+##### Uses of arrays
+
+* As a base for more advanced data structures
+* To gather results from running a loop
+* Collecting items
+
+#### Hash
+
+A hash is a collection of key-value pairs. While similar to arrays in the sense that it can store a collection of information for repeated use, a hash uses arbitrary keys to represent information. Its behaviour is dictionary-like, as the common use case for hashes is when you have a collection of definitions and results for a set of information. [Reference](https://medium.com/@mshapir95/data-structures-in-ruby-a2b709d565be)
+
+#### Uses for Hash
+
+* Counting characters in a string
+* Mapping words to definitions, names to phone numbers, etc.
+* Find duplicates inside an array
+
+#### Stack
+
+A stack is a top-to-bottom data structure, where data can be stacked on top of each other, to be processed and removed in an order. New items added to the stack are added to the top and existing elements are 'pushed' down the stack vertically. The stack operates in a 'last-in first-out' order. For example, when an item is removed from the stack, it will be the last item that was pushed into it. [Reference](https://www.rubyguides.com/2017/03/computer-science-in-ruby-stacks/)
+
+##### Uses for stack
+
+* Organising data in a strict sequence
+* A 'to-do' list presentation of representing information
 
 ## Q5
 
@@ -97,7 +127,7 @@ A compiler is a program that translates code written in a high-level programming
 The compiler is taking your human-readable source code, analyzing it, then producing a computer-readable code called machine code (binary). Some compilers will (instead of going straight to machine code) go to assembly, or a different human-readable language.
 When a program is compiled it is often compiled for a specific platform (e.g., IBM platform) that works with IBM compatible computers, but not other platforms (e.g., Apple platform). [Reference](https://www.computerhope.com/jargon/c/compile.htm)
 
-An interpreter is a computer program that directly executes instructions written in a programming or scripting language, without requiring them previously to have been compiled into a machine language program. An interpreter transforms or interprets a high-level programming code into code that can be understood by the machine (machine code) or into an intermediate language that can be easily executed as well. The interpreter reads each statement of code and then converts or executes it directly. Since an interpreter reads and then executes code in a single process, it very useful for scripting and other small programs. As such, it is commonly installed on Web servers, which run a lot of executable scripts.[Reference](https://www.techopedia.com/definition/7793/interpreter)
+An interpreter is a computer program that directly executes instructions written in a programming or scripting language, without requiring them previously to have been compiled into a machine language program. An interpreter transforms or interprets a high-level programming code into code that can be understood by the machine (machine code) or into an intermediate language that can be easily executed as well. The interpreter reads each statement of code and then converts or executes it directly. Since an interpreter reads and then executes code in a single process, it very useful for scripting and other small programs. As such, it is commonly installed on Web servers, which run a lot of executable scripts. [Reference](https://www.techopedia.com/definition/7793/interpreter)
 
 In most cases, a compiler is more favorable since its output runs much faster compared to a line-by-line interpretation. However, since interpretation happens per line or statement, it can be stopped in the middle of execution to allow for either code modification or debugging. Both have their advantages and disadvantages and are not mutually exclusive; this means that they can be used in conjunction as most integrated development environments employ both compilation and translation for some high-level languages. [Reference](https://www.techopedia.com/definition/7793/interpreter)
 
