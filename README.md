@@ -9,21 +9,28 @@
 Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
 300 - 500
 
+__Answer:__
+..............................
+
 ## Q2
 
 Define the features of the following technologies that are essential in terms of the development of the internet:
+
+Packets, IP Addresses (IPv4 and IPv6), Routers and Routing, Domains and DNS
+
+Explain how each technology has contributed to the development of the internet.
+
+__Answer:__
 
 ##### Packets
 A packet is a unit of data that is routed between two an origin and a destination within a packet-switched network. A packet contains two types of information: control information and user data.
 
 Communication platforms such as TCP/IP frames the data into two components - the header, payload and trailer.
-The header stores data detailing the delivery of the packet to it's destination, whereas the payload is the message's contents and the trailer containing bits representing the end of the packet.
+The header stores data detailing the delivery of the packet to it's destination, whereas the payload is the message's contents and the trailer containing bits representing the end of the packet. [Reference](https://www.livescience.com/20727-internet-history.html)
 
 The concept of network packets were first introduced in the early 1960s when Paul Baran, computer scientist, wrote 'Distributed Adaptive Message Block Switching, introducing a routing method for the delivery of information as part of a research program at RAND corporation, which, at the time, was funded by the US Department of Defence. 
-[Reference](https://www.livescience.com/20727-internet-history.html)
 
-However, it wasn't until 1965 when computer scientist Donald Davies furthered Baran's concepts into the delivery of a packet switching network, a method of grouping collections of data packets, and parsed to application software. This method was later implemented into early ARPRANET and became what is now considered the foundations of modern data communications and computer networks. 
-[Reference](https://www.ietf.org/rfc/rfc791.txt)
+However, it wasn't until 1965 when computer scientist Donald Davies furthered Baran's concepts into the delivery of a packet switching network, a method of grouping collections of data packets, and parsed to application software. This method was later implemented into early ARPRANET and became what is now considered the foundations of modern data communications and computer networks. [Reference](https://www.ietf.org/rfc/rfc791.txt)
  
 ##### IP Addresses (IPv4 and IPv6)
 An internet protocol address (IP address) is a numerical identifier assigned to a device on a computer network such as Internet Protocol (IP).
@@ -31,51 +38,68 @@ An internet protocol address (IP address) is a numerical identifier assigned to 
 IP addresses identify a host's network interface, providing other devices connected to the network via IP to locate the host, providing a path to connect to it.
 
 IPv4 is the fourth interation of the Internet Protocol.
-It is considered as one of the core protocols of standards-based internetworking methods on the internet and it was the first version that was deployed for production during the time of ARPANET. IP stands for a protocol that relies on packet-switched layer networks just like the Ethernet. It provides a logical connection between different network devices by providing identification for each device.
-[Reference](https://www.techopedia.com/definition/5367/internet-protocol-version-4-ipv4)
+It is considered as one of the core protocols of standards-based internetworking methods on the internet and it was the first version that was deployed for production during the time of ARPANET. IP stands for a protocol that relies on packet-switched layer networks just like the Ethernet. It provides a logical connection between different network devices by providing identification for each device. [Reference](https://www.techopedia.com/definition/5367/internet-protocol-version-4-ipv4)
 
-IPv4 still routes the majority of internet traffic to this day. IPv4 uses a 32-bit address scheme which allows for a total of 2 to the power of 32 addresses, whcih is just over 4 billion addresses total. 
-[Reference](https://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html)
+IPv4 still routes the majority of internet traffic to this day. IPv4 uses a 32-bit address scheme which allows for a total of 2 to the power of 32 addresses, whcih is just over 4 billion addresses total. [Reference](https://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html)
 
 However, due to the 4 billion address limitation in IPv4, a successor called IPv6 was created out of concern that the worldwide demand for IP addresses would exceed IPv4's availability. Development of IPv6 started back in the mid-1990s. This upgrade to the Internet Protocol will coexist with IPv4 for the foreseeable future.
 
-- routers and routing
-Routing is the process of selection and navigation within and across computer networks. Packet switching 
+##### Routers and routing
 
-*"A name indicates what we seek. An address indicates where it is. A route indicates how to get there."* 
-[Reference](https://tools.ietf.org/html/rfc791)
-- domains and DNS
+Routing is the process of selection and navigation within and across computer networks. Routing is performed by a special device known as a router. [Reference](https://www.javatpoint.com/computer-network-routing) 
 
-Explain how each technology has contributed to the development of the internet.
-50 - 100 words per dot point
+*"A name indicates what we seek. An address indicates where it is. A route indicates how to get there."* [Reference](https://tools.ietf.org/html/rfc791)
 
 
+A router is a physical or virtual appliance that passes information between two or more packet-switched computer networks. A router inspects a given data packet's destination Internet Protocol address (IP address), calculates the best way for it to reach its destination and then forwards it accordingly. [Reference](https://searchnetworking.techtarget.com/definition/router)
 
+A router examines a packet header's destination IP address and compares it against a routing table to determine the packet's best next hop. Routing tables list directions for forwarding data to particular network destinations, sometimes in the context of other variables, like cost. They amount to an algorithmic set of rules that calculate the best way to transmit traffic toward any given IP address. [Reference](https://geek-university.com/ccna/routing-table-explained/)
 
+For example, the typical home office router directs all outbound traffic along a single default route to its internet service provider (ISP). Many routers also perform network address translation (NAT), shielding the private IP addresses of a local area network (LAN) by readdressing all outgoing traffic with a single shared public IP address. NAT helps both conserve globally valid IP addresses and improve network security. [Reference](https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/26704-nat-faq-00.html)
+
+The concept of an "Interface computer" was first used by Donald Davies for the NPL network in 1966. The Interface Message Processor (IMP), conceived in 1967 for use in the ARPANET, had fundamentally the same functionality as a router does today. [Reference](https://web.archive.org/web/20160324032800/http://www.packet.cc/files/arpanet-computernet.html)
+
+##### Domains and DNS
+
+The Domain Name System has been an essential component of the functionality of the Internet since 1985. The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. [Reference](https://tools.ietf.org/html/rfc1034) 
+
+*The Domain Name System (DNS) is the phonebook of the Internet.*
+
+A domain is the human interpretation of a an internet address. Web browsers interact via IP addresses. DNS translates domain names to an IP address so that an internet browser can load the information at the address host. [Reference](https://www.cloudflare.com/learning/dns/what-is-dns/)
 
 ## Q3
 
 Define the features of the following technologies that are essential in terms of the development of the internet:
 
-- TCP
-- HTTP and HTTPS
-- web browsers (requests, rendering and developer tools)
+TCP, HTTP and HTTPS, web browsers (requests, rendering and developer tools).
 
-Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
+Explain how each technology has contributed to the development of client and server communication over the internet.
+
+__Answer:__
+
+...............................................
+
 
 ## Q4
 
 Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.
 50 - 100 words on each data structure
 
+__Answer:__
+.....................
+
 ## Q5
 
 Describe the features of interpreters and compilers and how they are different.
-100 - 200 words on each way the code is executed
+100 - 200 words on each way the code is executed.
+
+__Answer:__
+........................
 
 ## Q6
 
 Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
+
 __Answer:__
 
 #### Python
@@ -138,7 +162,6 @@ Swift is a compiled programming language developed by Apple Inc.
   You can only use Swift in the apps that target iOS7 and later. That said, Swift can’t be used for legacy projects running on older versions of the operating system. However, per recent research, less than 5% of Apple devices currently run on iOS6 or earlier.
   [Reference](https://david-smith.org/iosversionstats/)
 
-
 ## Q7
 
 Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
@@ -159,24 +182,36 @@ Conduct research into a case study of ONE of the ethical issues you have chosen 
 
 200 - 400 words for each ethical issue
 
+__Answer:__
+......................
+
 ## Q8
 
-Explain control flow, using an example from the Ruby programming language
+Explain control flow, using an example from the Ruby programming language.
 100
+
+__Answer:__
+....................
 
 ## Q9
 
-Explain type coercion
-100
+Explain type coercion.
 
+__Answer:__
 Type coercion is the automatic or implicit conversion of values from one data type to another. 
 [Reference](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion)
 
-To elaborate, this means that 
+This kind of type conversions can be implicitly or explicitly made. Implicit conversion, which is also called coercion, is automatically done. Explicit conversion, which is also called casting, is performed by code instructions. This code treats a variable of one data type as if it belongs to a different data type. The languages that support implicit conversion define the rules that will be automatically applied when primitive compatible values are involved. [Reference](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Coercion)
 
- different ways of changing an expression from one data type to another.
+The C code below illustrates implicit and explicit coercion. In line 2 the int constant 3 is automatically converted to double before assignment (implicit coercion. An explicit coercion is performed by involving the destination type with parenthesis, which is done in line 3. [Reference](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Coercion)
 
-An example would be the conversion of an integer value into a floating point value or its textual representation as a string, and vice versa.
+``` C
+double x, y;
+
+x = 3;            // implicitly coercion (coercion)
+
+y = (double) 5;   // explicitly coercion (casting)
+```
 
 ## Q10
 
