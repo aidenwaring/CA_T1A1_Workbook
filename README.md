@@ -138,16 +138,13 @@ Swift is a compiled programming language developed by Apple Inc.
 
 ##### Advantages
 * Speed
-  Swift was built with performance in mind. Not only does its simple syntax and hand-holding help you develop faster, it also lives up to its name: as stated on apple.com, Swift is 2.6x faster than Objective-C and 8.4x faster than Python.
-  [Reference](https://www.apple.com/swift/)
+  Swift was built with performance in mind. Not only does its simple syntax and hand-holding help you develop faster, it also lives up to its name: as stated on apple.com, Swift is 2.6x faster than Objective-C and 8.4x faster than Python. [Reference](https://www.apple.com/swift/)
 
 * Demand
-  Remaining supreme to Objective C, Swift is ranked 14th among the most popular programming languages of 2018 as per Stack Overflow's 2018 Developer Survey Results. 
-  [Reference](https://insights.stackoverflow.com/survey/2018/)
-
+  Remaining supreme to Objective C, Swift is ranked 14th among the most popular programming languages of 2018 as per Stack Overflow's 2018 Developer Survey Results. [Reference](https://insights.stackoverflow.com/survey/2018/)
+  
 * Modern Language - New Features
-  Playgrounds is one of the USP of Swift programming language. Input in a line of code and the Swift programming language instantly displays the output. To further extend its functionality, if you have a loop in your code, you can monitor its progress on the timeline assistant. The timelines displays the variables in a graph and draws each step. Playgrounds also allows the developers to experiment with the new APIs.
-  [Reference](https://www.snyxius.com/benefits-of-the-swift-programming-language/)
+  Playgrounds is one of the USP of Swift programming language. Input in a line of code and the Swift programming language instantly displays the output. To further extend its functionality, if you have a loop in your code, you can monitor its progress on the timeline assistant. The timelines displays the variables in a graph and draws each step. Playgrounds also allows the developers to experiment with the new APIs. [Reference](https://www.snyxius.com/benefits-of-the-swift-programming-language/)
 
 ##### Disadvantages
 * Stability Issues
@@ -191,7 +188,31 @@ Explain control flow, using an example from the Ruby programming language.
 100
 
 __Answer:__
-....................
+In computer science, control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated. [Reference](https://cs.stanford.edu/people/eroberts/papers/SIGCSE-1995/LoopExits.pdf)
+
+In Ruby, the flow of the program runs sequentially from one line to the next from top to bottom. Conditionals and loops alter the flow of a Ruby program. Conditionals are keywords that execute a certain statement under a specific condition. Loops are blocks of program that are executed multiple times. When the program is run, the statements are executed from the top of the source file to the bottom. One by one. [Reference](http://zetcode.com/lang/rubytutorial/flowcontrol/)
+
+Example: If statement
+
+```ruby
+num = gets.to_i
+
+if num > 0 ? puts "Number is a positive integer" : puts "Number is a negative integer"
+```
+
+Example: loop
+
+```ruby
+i = 0
+sum = 0
+
+while i < 10 do
+   i = i + 1
+   sum = sum + i
+end
+
+puts "The sum of 0..9 values is #{sum}"
+```
 
 ## Q9
 
