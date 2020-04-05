@@ -419,7 +419,7 @@ As the stored value is now an integer, it does not contain the new line characte
 The code snippet below looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 
 **Answer:**
-[Response to Q13.](q13.rb)
+[Response to Q13.](/docs/q13.rb)
 
 ## Q14
 
@@ -429,7 +429,7 @@ Demonstrate your algorithmic thinking through completing the following two tasks
 2.  Write pseudocode for the process outlined in your flowchart.
 
 **Answer:**
-[Link to flowchart.](Primes.png)
+[Link to flowchart.](/docs/Primes.png)
 
 ```ruby
 #array = [1...100]
@@ -450,7 +450,7 @@ Write pseudocode OR Ruby code for the following problem:
 You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
 
 **Answer:**
-[Response to Q15.](q15.rb)
+[Response to Q15.](/docs/q15.rb)
 
 ## Q16
 
@@ -474,4 +474,4 @@ b) the full list of allergies.
 
 **Answer:**
 
-[Response to Q16.](q16.rb)
+[Response to Q16.](/docs/q16.rb)
