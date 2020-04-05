@@ -8,20 +8,41 @@
 
 Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
 
-ARPRANET
-
-NCP
-
-TCPIP
-
-NSFNET / CSNET
-
-Modern Internet
-
-300 - 500
-
 **Answer:**
-..............................
+
+##### ARPRANET
+
+The ARPANET was the first wide area packet switching network, the "Eve" network of what has evolved into the Internet we know and love today.
+
+The ARPANET was originally created by the IPTO under the sponsorship of DARPA, and conceived and planned by Lick Licklider, Lawrence Roberts, and others as described earlier in this section.
+
+The ARPANET, and so the Internet, was born on August 30, 1969, when BBN delivered the first Interface Message Processor (IMP) to Leonard Kleinrock's Network Measurements Center at UCLA. The IMP was built from a Honeywell DDP 516 computer with 12K of memory, designed to handle the ARPANET network interface. In a famous piece of Internet lore, on the side of the crate, a hardware designer at BBN named Ben Barker had written "Do it to it, Truett", in tribute to the BBN engineer Truett Thach who traveled with the computer to UCLA on the plane. [Reference](https://www.livinginternet.com/i/ii_arpanet.htm)
+
+##### NCP
+
+The Network Control Protocol (NCP) was the first standard networking protocol on the ARPANET. NCP was finalized and deployed in December 1970 by the Network Working Group (NWG), led by Steve Crocker, also the inventor of the Request For Comments. [Reference](http://www.rfc-editor.org/rfc/rfc1000.txt)
+
+NCP standardized the ARPANET network interface, making it easier to establish, and enabling more and more DARPA sites to join the network. In October 1971, every site on the ARPANET logged into every other site (with one exception) over NCP at a meeting at the Massachusetts Institute of Technology.
+
+By the end of 1971 there were fifteen sites using NCP on the young Internet. [Reference](http://www.rfc-editor.org/rfc/rfc78.txt)
+
+##### TCPIP
+
+The Internet's open and efficient TCP/IP protocol is the foundation of an inter-networking design has made it the most widely used network protocol in the world. Development of the protocol was conducted by several people - DARPA (later ARPA), the R&D organization that funded the original ARPANET, contacted BBN, Stanford and The University College London - each initiative eventually coming together to form TCP v1.
+Four increasingly better versions of TCP/IP were developed -- TCP v1, TCP v2, a split into TCP v3 and IP v3 in the spring of 1978, and then stability with TCP v4 and IPv4 -- the standard protocol still in use on the Internet today. 
+
+In 1984, the US Department of Defense made TCP/IP the standard for all military computer networking, which gave it a high profile and stable funding. In 1985, Dan Lynch and the Internet Architecture Board held a three day workshop on TCP/IP for the computer industry, which was attended by about 50 researchers and 250 vendor representatives. This meeting helped popularize knowledge of TCP/IP in the computer industry, and triggered the development of several TCP/IP networking products by different companies, starting the protocol on its way to become a commercial standard. [Reference](https://whatis.techtarget.com/definition/IAB-Internet-Architecture-Board)
+
+##### NSFNET / CSNET
+
+NSFNET was a network for research computing deployed in the mid-1980s that in time also became the first backbone computer network. 
+Following the deployment of the Computer Science Network (CSNET), a network that provided Internet services to academic computer science departments, in 1981, the U.S. National Science Foundation (NSF) aimed to create an academic research network facilitating access by researchers to the supercomputing centers funded by NSF in the United States. [Reference](https://www.sciencedirect.com/science/article/pii/B9781555580476500321)
+It has a three-level component structure composed of a backbone, autonomously administered mid-level networks, and campus networks. The NSFNET backbone uses MCI's fiber-optic circuit to carry data. NSFNET follows the architecture and protocols developed by the Defense Advanced Research Projects Agency (DARPA). The Internet Protocol (IP) specifies the basic Internetworking mechanism. The Transmission Protocol (TCP) provides end-to-end reliability, and the User Datagram Protocol (UDP) provides direct IP datagram access for transaction services.
+The National Science Foundation permitted only government agencies and universities to use the network until 1989 when the first commercial Internet service provider emerged. By 1991, the NSF removed restrictions on access and the commercial ISP business grew rapidly. [Reference](https://www.nsf.gov/news/news_summ.jsp?cntn_id=103050)
+
+##### Internet Privatisation
+In the years following NSFNET, around 1993,NSF helped navigate the road to a self-governing and commercially viable Internet during a period of remarkable growth. The most visible, and most contentious, component of the Internet transition was the registration of domain names. Domain name registration associates a human-readable character string with Internet Protocol (IP) addresses, which computers use to locate one another. [Reference](https://www.nsf.gov/news/news_summ.jsp?cntn_id=103050)
+The year 1998 marked the end of NSF’s direct role in the Internet. That year, the network access points and routing arbiter functions were transferred to the commercial sector. And after much debate, the Department of Commerce’s National Telecommunications and Information Administration formalized an agreement with the non-profit Internet Corporation for Assigned Numbers and Names (ICANN) for oversight of domain name registration. Today, anyone can register a domain name through a number of ICANN-accredited registrars.
 
 ## Q2
 
@@ -259,9 +280,7 @@ the potential for public recrimination triggered by notification can strengthen 
 
 IT professionals must follow the Privacy Act laws and guidelines to for ethical professional practice. Failure to do so is considered a criminal offence. For example, the OAIC states for the healthcare section that: Unauthorised collection, use or disclosure by a person of health information included in a healthcare recipient’s My Health Record, where the person knows or is reckless as to the fact the collection, use or disclosure is not authorised (s 59(1) and (2)) — criminal offence penalty is 120 penalty units or imprisonment for 2 years, or both. The civil penalty is 600 penalty units. [Reference](https://www.oaic.gov.au/about-us/our-regulatory-approach/guide-to-privacy-regulatory-action/chapter-6-civil-penalties/)
 
-The second ethical issue I have chosen to discuss is the aggressive sales and marketing practices designed to mislead and deceive consumers. As should all Australian business professionals, an IT professional should behave within the laws and best practices provided by the Australian Competition & Consumer Commission (ACCC). Developers, designers - any IT individual or organisation providing or marketing a service or product must adhere to not providing 'false or misleading claims'. There are laws in place to protect consumers from being mislead about products and services they consume.
-
-[Reference](https://www.accc.gov.au/consumers/advertising-promotions/false-or-misleading-claims)
+The second ethical issue I have chosen to discuss is the aggressive sales and marketing practices designed to mislead and deceive consumers. As should all Australian business professionals, an IT professional should behave within the laws and best practices provided by the Australian Competition & Consumer Commission (ACCC). Developers, designers - any IT individual or organisation providing or marketing a service or product must adhere to not providing 'false or misleading claims'. There are laws in place to protect consumers from being mislead about products and services they consume. [Reference](https://www.accc.gov.au/consumers/advertising-promotions/false-or-misleading-claims)
 
 IT professionals advertising a service or product must be cautious in the approach and communication tools used to advertise to consumers. Businesses are not allowed to make statements that are incorrectly or likely to create a false impression, such as: the quality, style, model or history of a product or service, whether the goods are new, the sponsorship, performance characteristics, accessories, benefits or use of products and services, the availability of repair facilities or spare parts, the need for the goods or services, any exclusions on the goods and services.
 
@@ -271,7 +290,6 @@ To mitigate or prevent ethical breaches, an IT professional must make themselves
 ## Q8
 
 Explain control flow, using an example from the Ruby programming language.
-100
 
 **Answer:**
 In computer science, control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated. [Reference](https://cs.stanford.edu/people/eroberts/papers/SIGCSE-1995/LoopExits.pdf)
