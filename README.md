@@ -26,14 +26,14 @@ NCP standardized the ARPANET network interface, making it easier to establish, a
 
 By the end of 1971 there were fifteen sites using NCP on the young Internet. [Reference](http://www.rfc-editor.org/rfc/rfc78.txt)
 
-##### TCPIP
+##### TCP/IP
 
 The Internet's open and efficient TCP/IP protocol is the foundation of an inter-networking design has made it the most widely used network protocol in the world. Development of the protocol was conducted by several people - DARPA (later ARPA), the R&D organization that funded the original ARPANET, contacted BBN, Stanford and The University College London - each initiative eventually coming together to form TCP v1.
 Four increasingly better versions of TCP/IP were developed -- TCP v1, TCP v2, a split into TCP v3 and IP v3 in the spring of 1978, and then stability with TCP v4 and IPv4 -- the standard protocol still in use on the Internet today. 
 
 In 1984, the US Department of Defense made TCP/IP the standard for all military computer networking, which gave it a high profile and stable funding. In 1985, Dan Lynch and the Internet Architecture Board held a three day workshop on TCP/IP for the computer industry, which was attended by about 50 researchers and 250 vendor representatives. This meeting helped popularize knowledge of TCP/IP in the computer industry, and triggered the development of several TCP/IP networking products by different companies, starting the protocol on its way to become a commercial standard. [Reference](https://whatis.techtarget.com/definition/IAB-Internet-Architecture-Board)
 
-##### NSFNET / CSNET
+##### NSFNET
 
 NSFNET was a network for research computing deployed in the mid-1980s that in time also became the first backbone computer network. 
 Following the deployment of the Computer Science Network (CSNET), a network that provided Internet services to academic computer science departments, in 1981, the U.S. National Science Foundation (NSF) aimed to create an academic research network facilitating access by researchers to the supercomputing centers funded by NSF in the United States. [Reference](https://www.sciencedirect.com/science/article/pii/B9781555580476500321)
