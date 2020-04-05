@@ -277,7 +277,23 @@ Here’s the problem: “There is a restaurant serving a variety of food. The cu
 
 - Identify the classes you would use to solve the problem
 - Write a short explanation of why you would use the classes you have identified
-  N/A
+
+**Answer:**
+Classes:
+- Order Class
+- Payment Class
+- Food Creation Class
+- Waiter Class
+
+The order class would be used as each attribute pertaining to a menu order can be stored in a class for an instance of the class to be used for each new order.
+For example, the class would store information such as the food choice, it's quantity, any special requests, table number and the order price.
+As the structure of a typical menu order would remain the same, a class can be used to specify these attributes - instances of the class can be created with these options changing each time for each new order. 
+
+A payment class can also be used to create new instances of the class for each payment. Attributes such as total tab, payment type, tip can be recorded. A class is used as multiple instances of a payment would need to be recorded for the restaurant - similar to how each customer's order is recorded via a receipt, where the strucuture of the receipt and information remains the same for all payments.
+
+A food creation class could be used to store information regarding the creation of the food, using methods that take ingredients or menu choices as arguments. The food creation class would specify the recipe or order someone/an automation process would create the menu item. A class is used as multiple instances of a menu orders would need to be recorded for the restaurant - similar to how an order docket would be printed out and provided to the kitchen staff.
+
+A waiter class could be used to store information regarding navigating the menu item from the kitchen to the customer. It's methods would likely take arguments such as the menu item and the customer's table number. A class is used as multiple instances of a a waiter moving each menu item to the destination, as not only does one customer's order needs to be delivered, but each every table's order needs to be delivered.
 
 ## Q12
 
