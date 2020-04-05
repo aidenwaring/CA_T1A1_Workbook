@@ -7,6 +7,17 @@
 ### Q1
 
 Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
+
+ARPRANET
+
+NCP
+
+TCPIP
+
+NSFNET / CSNET
+
+Modern Internet
+
 300 - 500
 
 **Answer:**
@@ -224,6 +235,13 @@ For each ethical issue identify a source of legal information relating to the et
 Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches. (Word count guide: 400 - 600 words)
 
 200 - 400 words for each ethical issue
+
+Access to a user's personal information
+- Legal info
+- Conduct research into a case study
+Freedom of thought
+- Legal info
+- Conduct research into a case study
 
 **Answer:**
 ......................
