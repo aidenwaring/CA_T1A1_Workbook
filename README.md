@@ -236,15 +236,39 @@ Conduct research into a case study of ONE of the ethical issues you have chosen 
 
 200 - 400 words for each ethical issue
 
-Access to a user's personal information
-- Legal info
-- Conduct research into a case study
-Freedom of thought
-- Legal info
-- Conduct research into a case study
-
 **Answer:**
 ......................
+I have chosen two ethical issues from the above list to discuss the extent to which any IT professional is ethically responsible. The first of these issues is access to a user's personal information (medical, family, financial, personal attributes such as sexuality, religion or beliefs).
+
+During my development of my discussion for this item, I performed research into a number of different Australian legal documentation and sources detailing the legalities surrounding customer information.
+
+The law does provide sufficient information to developers to act ethically. Information regarding guidelines, best practices and laws are made publicly availble and easy to read and comprehend. [Reference](https://www.legislation.gov.au/Details/C2014C00076)
+
+The Australian Government's Privacy Act of 1988 regulates the use control of user's personal data for individuals and organisations. [Reference](https://www.legislation.gov.au/Details/C2014C00076)
+
+Developers working professionally must adhere to laws for business owners and traders as outlined below.
+
+As a business owner, you’re responsible for protecting your customers’ personal information from: theft, misuse, interference, loss, unauthorised access, modification, disclosure.
+
+This is a legal requirement under the Privacy Act 1988 (Privacy Act). When you no longer need your customers’ personal information you must destroy or de-identify it. This includes shredding documents or storing them in a secure area.
+
+Certain rules are only specific to certain trades and sections. Even if a section of a developer's work is not explicitly detailed in the Privacy Act, it asks that e'ven if the Privacy Act doesn’t cover your business, it’s important to handle your customers’ personal information appropriately.'
+
+Recent substantial changes have also made to how businesses comply with data breaches. As of February 2018, if a data breach involves personal information and is likely to cause serious harm to an individual, you need to notify both the individual involved and the Office of the Australian Information Commissioner (OAIC). [Reference](https://www.oaic.gov.au/privacy/notifiable-data-breaches/)
+
+I have conducted further research in the personal information field by studying a research paper written by Sara M Smyth called Does Australia Really Need Mandatory Data Breach Notification Laws - And If So, What Kind?" [2013] JlLawInfoSci 8; (2013) 22(2) Journal of Law, Information and Science 159'. Smyth discusses the privacy laws that were brought in during 2013 and it's impact for mandatory breach notifications, with results finidng that these laws brought much needed attention to areas of concern that were previously unknown. Data breach notification laws can play an important role in transforming business practices and increasing consumer awareness through increased media coverage and post-hoc measures.
+the potential for public recrimination triggered by notification can strengthen awareness of sound data security practices within organisations. Mandatory data breach notification laws can therefore be effective at fostering good data security awareness, as well as increasing transparency and accountability with respect to information security practices, both to avoid ‘brand tarnishing’ issues and to achieve a competitive advantage. [Reference](http://www5.austlii.edu.au/au/journals/JlLawInfoSci/2013/8.html#Heading180)
+
+The second ethical issue I have chosen to discuss is the aggressive sales and marketing practices designed to mislead and deceive consumers. As should all Australian business professionals, an IT professional should behave within the laws and best practices provided by the Australian Competition & Consumer Commission (ACCC). Developers, designers - any IT individual or organisation providing or marketing a service or product must adhere to not providing 'false or misleading claims'. There are laws in place to protect consumers from being mislead about products and services they consume.
+
+[Reference](https://www.accc.gov.au/consumers/advertising-promotions/false-or-misleading-claims)
+
+IT professionals advertising a service or product must be cautious in the approach and communication tools used to advertise to consumers. Businesses are not allowed to make statements that are incorrectly or likely to create a false impression, such as: the quality, style, model or history of a product or service, whether the goods are new, the sponsorship, performance characteristics, accessories, benefits or use of products and services, the availability of repair facilities or spare parts, the need for the goods or services, any exclusions on the goods and services.
+
+Examples provided by the ACCC that are related to the IT industry a mobile phone provider signs you up to a contract without telling you that there is no coverage in your region, a business predicts the health benefits of a therapeutic device or health product but has no evidence that such benefits can be attained.
+
+
+
 
 ## Q8
 
