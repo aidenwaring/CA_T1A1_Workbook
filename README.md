@@ -78,7 +78,31 @@ Explain how each technology has contributed to the development of client and ser
 
 **Answer:**
 
-...............................................
+##### TCP
+
+TCP, or the Transmission Control Protocol, is a communication protocol that was introduced to the world in a 1974 paper entitled A Protocol for Packet Network Intercommunication. [Reference](https://www.extrahop.com/resources/protocols/tcp/)
+
+TCP is one of the main protocols in TCP/IP networks. Whereas the IP protocol deals only with packets, TCP enables two hosts to establish a connection and exchange streams of data. TCP guarantees delivery of data and also guarantees that packets will be delivered in the same order in which they were sent. [Reference](https://www.webopedia.com/TERM/T/TCP.html)
+
+The TCP/IP protocols were initially developed as part of the research network developed by the United States Defense Advanced Research Projects Agency (DARPA or ARPA). Initially, this fledgling network, called the ARPAnet, was designed to use a number of protocols that had been adapted from existing technologies. However, they all had flaws or limitations, either in concept or in practical matters such as capacity, when used on the ARPAnet. The developers of the new network recognized that trying to use these existing protocols might eventually lead to problems as the ARPAnet scaled to a larger size and was adapted for newer uses and applications. [Reference](http://www.tcpipguide.com/free/t_TCPIPOverviewandHistory.htm)
+
+##### HTTP and HTTPS
+
+HTTP stands for the Hypertext Transfer Protocol. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser. [Reference](https://tools.ietf.org/html/rfc2616)
+
+HTTPS (Hypertext Transfer Protocol Secure) is the extension of HTTP which uses encryption in order to increase security of data being transfered between the client and the server.
+When information is sent over regular HTTP, the information is broken into packets of data that can be easily “sniffed” using free software. This makes communication over the an unsecure medium, such as public Wi-Fi, highly vulnerable to interception. In fact, all communications that occur over HTTP occur in plain text, making them highly accessible to anyone with the correct tools, and vulnerable to man-in the-middle attacks. With HTTPS, traffic is encrypted such that even if the packets are sniffed or otherwise intercepted, they will come across as nonsensical characters. [Reference](https://www.cloudflare.com/learning/ssl/what-is-https/) 
+
+##### Web Browsers
+
+A web browser is software that allows the user to access information on the World Wide Web. A web browser retrieves information from other parts of the web and displays it on your desktop or mobile device. The information is transferred using the Hypertext Transfer Protocol, which defines how text, images and video are transmitted on the web. This information needs to be shared and displayed in a consistent format so that people using any browser, anywhere in the world can see the information. [Reference](https://www.mozilla.org/en-US/firefox/browsers/what-is-a-browser/)
+
+Commonly used web browsers are Google Chrome, Mozilla Firefox, Apple Safari, Microsot Edge, Microsoft Internet Explorer and Opera.
+
+Once a request to the server has been verified, content displayed on a webpage is provided from one or many servers on which the content for that page is stored.
+The page maybe made up from content from different sources. Images may come from one server, text content from another, scripts such as date scripts from another and ads from another. A web page's contents are structured using HTML (Hypertext Markup Language) - a standard which structures the way content should be displaued in a web browser. Your web browser receives the HTML content from the web server and knows how to display the content via HTML, and is often assisted by other technologies such as CSS (Cascading Style Sheets) and scripting languages such as JavaScript. [Reference](https://www.allaboutcookies.org/browsers/)
+
+Most web browsers provide users with developer tools, allowing users to perform a number of actions. These tools do a range of things, from inspecting currently-loaded HTML, CSS and JavaScript to showing which assets the page has requested and how long they took to load. [Reference](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools)
 
 ## Q4
 
